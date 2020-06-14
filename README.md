@@ -88,3 +88,9 @@ Use Ctrl+C to stop the nodes.
 
 ## Rosbag Recordings
 Rosbag recordings for both the question is inside the folder rosbag.
+
+1.omnibase
+The rosbag file records the path (0,0),(1,1,),(2,2),(2,0),(0,0)
+
+2.follower
+The rosbag file records the full path traversal as in lfm1.world by the turtlebot3 
