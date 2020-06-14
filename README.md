@@ -28,6 +28,7 @@ rosbag recording of the functioning robot.
 ## Please follow these instructions to reproduce the results:
 ### 4.3.1.2
 To clone and run omnibase follow [Omnibase Github repository](https://github.com/ERC-BPGC/omnibase).
+
 Clone ERC-Summer-Assignment-2020:
 ```bash
 cd ~/catkin_ws/src
@@ -52,4 +53,4 @@ cd ~/catkin_ws
 source devel/setup.bash
 rosrun omnibase_controller controller.py
 ```
-Use Ctrl+C to stop th nodes.
+Use Ctrl+C to stop the nodes.
