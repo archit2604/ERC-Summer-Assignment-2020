@@ -51,7 +51,7 @@ roslaunch omnibase_gazebo omnibase.launch
 ```
 Run the path planning node:
 ```bash
-cd ~/ws/src/omnibase_controller/src/
+cd ~/catkin_ws/src/omnibase_controller/src/
 chmod u+x path_planner.py 
 cd ~/catkin_ws
 source devel/setup.bash
@@ -60,7 +60,7 @@ rosrun omnibase_controller path_planner.py
 ```
 Run the controller node:
 ```bash
-cd ~/ws/src/omnibase_controller/src/
+cd ~/catkin_ws/src/omnibase_controller/src/
 chmod u+x controller.py
 cd ~/catkin_ws
 source devel/setup.bash
@@ -78,6 +78,8 @@ git clone https://github.com/archit2604/ERC-Summer-Assignment-2020.git
 ```
 Start the simulation:
 ```bash
+cd ~/catkin_ws/src/follower/src/
+chmod u+x follower.py
 cd ~/catkin_ws
 source devel/setup.bash
 roslaunch follower tb3_lfm1.launch
