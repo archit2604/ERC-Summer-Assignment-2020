@@ -30,9 +30,14 @@ rosbag recording of the functioning robot.
 To clone and run omnibase follow [Omnibase Github repository](https://github.com/ERC-BPGC/omnibase).
 
 Clone ERC-Summer-Assignment-2020:
+*Download the repository as a ZIP file
+*Unpack it
+*Copy all the contents and paste them in your /catkin_ws/src
+*Now run:
 ```bash
-cd ~/catkin_ws/src
-git clone https://github.com/archit2604/ERC-Summer-Assignment-2020.git
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
 ```
 Start omnibase in gazebo:
 ```bash
