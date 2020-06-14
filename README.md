@@ -1,6 +1,5 @@
 # ERC-Summer-Assignment-2020
-I have attempted 2 question from the "4.3 Automation and Control" section of the assignment
-## These are
+I have attempted 2 question from the "4.3 Automation and Control" section of the assignment.These are:
 
 ## 4.3.1.2- Omnibase
 Omnibase is an omni-wheel based ground robot platform for simulation
@@ -27,4 +26,4 @@ between the bot’s centre and the line’s centre. Submit your code and a
 rosbag recording of the functioning robot.
 
 ## Please follow these instructions to reproduce the results:
--4.3.1.2
+### 4.3.1.2
