@@ -40,7 +40,6 @@ def callback_odom(msg):
         e_x_prev=e_x
         #code snippet to stop the movement in x direction when omnibase reaches the goal within some error
         if e_x<=0.01 and e_x>=-0.01:
-            print(e_x)
             twist.linear.x=0
             pub.publish(twist)
             count1=1
@@ -55,7 +54,6 @@ def callback_odom(msg):
         e_y_prev=e_y 
         #code snippet to stop the movement in y direction when omnibase reaches the goal within some error
         if e_y<=0.01 and e_y>=-0.01:
-            print(e_y)
             twist.linear.y=0
             pub.publish(twist)
             count2=1
