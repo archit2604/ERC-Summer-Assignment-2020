@@ -47,7 +47,7 @@ Start omnibase in gazebo:
 ```bash
 cd ~/catkin_ws
 source devel/setup.bash
-rosrun omnibase_gazebo omnibase.launch
+roslaunch omnibase_gazebo omnibase.launch
 ```
 Run the path planning node:
 ```bash
