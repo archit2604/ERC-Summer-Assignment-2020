@@ -67,6 +67,7 @@ source devel/setup.bash
 rosrun omnibase_controller controller.py
 ```
 Ignore any errors onn the terminal due to path being published late
+
 Use Ctrl+C to stop the nodes.
 
 ### 4.3.4.1
