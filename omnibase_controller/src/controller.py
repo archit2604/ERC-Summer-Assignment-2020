@@ -81,7 +81,6 @@ e_y_prev=0
 global flag
 flag=0
 rospy.init_node('controller_omni')
-rospy.sleep(1)
 sub_path=rospy.Subscriber('path',Path,callback_path)
 sub_odom=rospy.Subscriber('odom',Odometry,callback_odom)
 pub=rospy.Publisher('cmd_vel',Twist,queue_size=2)
