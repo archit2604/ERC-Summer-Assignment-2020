@@ -31,13 +31,13 @@ To clone and run omnibase follow [Omnibase Github repository](https://github.com
 
 Clone ERC-Summer-Assignment-2020:
 
-1.Download the repository as a ZIP file
+  1.Download the repository as a ZIP file
 
-2.Unpack it
+  2.Unpack it
 
-3.Copy all the contents and paste them in your /catkin_ws/src
+  3.Copy all the contents and paste them in your /catkin_ws/src
 
-4.Now run:
+  4.Now run:
 ```bash
 cd ~/catkin_ws
 catkin_make
