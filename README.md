@@ -58,7 +58,7 @@ source devel/setup.bash
 rosrun omnibase_controller path_planner.py
 #Enter the path before proceeding further
 ```
-Run the path planner:
+Run the controller node:
 ```bash
 cd ~/ws/src/omnibase_controller/src/
 chmod u+x controller.py
@@ -66,6 +66,7 @@ cd ~/catkin_ws
 source devel/setup.bash
 rosrun omnibase_controller controller.py
 ```
+Ignore any errors onn the terminal due to path being published late
 Use Ctrl+C to stop the nodes.
 
 ### 4.3.4.1
