@@ -68,3 +68,6 @@ source devel/setup.bash
 roslaunch follower tb3_lfm1.launch
 ```
 Use Ctrl+C to stop the nodes.
+
+## Rosbag Recordings
+Rosbag recordings for both the question is inside the folder rosbag.
