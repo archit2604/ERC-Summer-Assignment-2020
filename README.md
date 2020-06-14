@@ -54,3 +54,17 @@ source devel/setup.bash
 rosrun omnibase_controller controller.py
 ```
 Use Ctrl+C to stop the nodes.
+
+### 4.3.4.1
+Clone ERC-Summer-Assignment-2020:
+```bash
+cd ~/catkin_ws/src
+git clone https://github.com/archit2604/ERC-Summer-Assignment-2020.git
+```
+Start the simulation:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch follower tb3_lfm1.launch
+```
+Use Ctrl+C to stop the nodes.
