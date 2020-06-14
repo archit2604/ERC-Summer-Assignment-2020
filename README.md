@@ -9,7 +9,7 @@ points, make a ROS node which subscribes to /odom topic (for current
 position) and publishes to /cmd_vel topic the required velocity to get to
 the next point. The robot should stop at each point in the path before
 continuing. It will receive the path by subscribing to /path topic with
-/nav_msgs/Path​ message type. For the purpose of demonstration you can
+/nav_msgs/Path message type. For the purpose of demonstration you can
 set up a simple node for publishing /path.
 Since the robot uses omni-wheels it can move in any direction without
 needing to rotate. Your controller should use this fact to publish velocity in
@@ -27,3 +27,30 @@ rosbag recording of the functioning robot.
 
 ## Please follow these instructions to reproduce the results:
 ### 4.3.1.2
+To clone and run omnibase follow:
+https://github.com/ERC-BPGC/omnibase
+Clone ERC-Summer-Assignment-2020:
+```bash
+cd ~/catkin_ws/src
+git clone https://github.com/archit2604/ERC-Summer-Assignment-2020.git
+```
+Start omnibase in gazebo:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+rosrun omnibase_gazebo omnibase.launch
+```
+Run the path planning node:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+rosrun omnibase_controller path_planner.py
+#Enter the path before proceeding further
+```
+Run the path planner:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+rosrun omnibase_controller controller.py
+```
+Use Ctrl+C to stop th nodes.
