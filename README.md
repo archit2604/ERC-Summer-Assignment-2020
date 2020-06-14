@@ -27,8 +27,7 @@ rosbag recording of the functioning robot.
 
 ## Please follow these instructions to reproduce the results:
 ### 4.3.1.2
-To clone and run omnibase follow:
-https://github.com/ERC-BPGC/omnibase
+-To clone and run omnibase follow [Omnibase Github repository](https://github.com/ERC-BPGC/omnibase)
 Clone ERC-Summer-Assignment-2020:
 ```bash
 cd ~/catkin_ws/src
